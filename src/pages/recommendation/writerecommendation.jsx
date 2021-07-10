@@ -47,8 +47,17 @@ class WriteRecommendation extends Component {
             recommendationMessage: this.state.recommendationMessage,
             createdAt: time
         }
+        this.setState({
+            name: "",
+            email: "",
+            company: "",
+            designation: "",
+            recommendationMessage: "",
+            createdAt: ""
+        })
         console.log(this.recommendation);
-        addToFireStore('recommendations', this.recommendation);
+
+        if (this.recommendation.name && this.recommendation.recommendationMessage) { return addToFireStore('recommendations', this.recommendation) };
     };
 
     render() {
@@ -68,6 +77,7 @@ class WriteRecommendation extends Component {
                                     name="name"
                                     className="form-control"
                                     onChange={this.onChange}
+                                    required
                                 />
                             </div>
                             <div className="form-group">
@@ -77,6 +87,7 @@ class WriteRecommendation extends Component {
                                     name="email"
                                     className="form-control"
                                     onChange={this.onChange}
+                                    required
                                 />
                             </div>
                             <div className="form-group">
@@ -86,6 +97,7 @@ class WriteRecommendation extends Component {
                                     className="form-control"
                                     name="company"
                                     onChange={this.onChange}
+                                    required
                                 ></input>
                             </div>
                             <div className="form-group">
@@ -95,6 +107,7 @@ class WriteRecommendation extends Component {
                                     className="form-control"
                                     name="designation"
                                     onChange={this.onChange}
+                                    required
                                 ></input>
                             </div>
                             <div className="form-group">
@@ -106,6 +119,7 @@ class WriteRecommendation extends Component {
                                     name="recommendationMessage"
                                     rows="5"
                                     onChange={this.onChange}
+                                    required
                                 ></textarea>
                             </div>
                             <button
