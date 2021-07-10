@@ -1,0 +1,38 @@
+.anime {
+  display: block;
+  cursor: pointer;
+}
+
+.clr {
+  color: #b5b9bc;
+  transform: scale(1.2);
+  transition: transform 0.35s ease-in;
+}
+
+.clr:hover {
+  transform: rotate(180deg);
+}
+
+.brnd {
+  color: #f7f7f7;
+  transform: translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.brnd:hover {
+  color: #f7f7f7;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+.navb {
+  color: #f7f7f7;
+  transform: translateZ(0);
+  transition: transform 0.4s ease-out;
+}
+
+.navb:hover {
+  color: #f7f7f7;
+  text-decoration: none;
+  transform: scale(1.05);
+}

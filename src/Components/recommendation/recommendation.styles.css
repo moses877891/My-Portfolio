@@ -1,0 +1,18 @@
+.hov {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-out;
+}
+
+.hov:hover {
+  transform: translate(15px);
+  text-decoration: none;
+}
+
+.tr {
+  transform: translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.tr:hover {
+  transform: rotate(-90deg);
+}
