@@ -10,6 +10,7 @@ class WriteRecommendation extends Component {
         recommendationMessage: "",
         submitMessage: "",
         submitMessageTextColor: "",
+        createdAt: ""
     };
 
     recommendation = {};
@@ -25,6 +26,7 @@ class WriteRecommendation extends Component {
 
         let isSuccessful = true;
         const { name } = this.state;
+        const time = new Date();
 
         if (isSuccessful) {
             this.setState({
@@ -43,6 +45,7 @@ class WriteRecommendation extends Component {
             company: this.state.company,
             designation: this.state.designation,
             recommendationMessage: this.state.recommendationMessage,
+            createdAt: time
         }
         console.log(this.recommendation);
         addToFireStore('recommendations', this.recommendation);

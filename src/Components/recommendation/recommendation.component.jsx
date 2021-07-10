@@ -14,7 +14,7 @@ function RecommendationSection({ recommendation, loading }) {
                 <h1 className="text-center flt"><span className="text-danger">Recomme</span>ndations</h1>
             </div>
             <div className="row text-center py-5 d-flex flex-nowrap overflow-auto scrollbar">
-                {recommendation.slice(0, 10).reverse().map((i) => (
+                {recommendation.slice(0).reverse().map((i) => (
                     <RecommendationCard key={uuid()} recommendation={i} />
                 ))}
             </div>
