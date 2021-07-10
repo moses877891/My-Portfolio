@@ -27,7 +27,7 @@ function SkillStack({ skill, loading }) {
                     <span className="text-danger">Technology</span> stack
                 </h1>
                 <div className="lead pb-5">
-                    I design, develop & deliver with these weapons
+                    My Arsenal
                 </div>
                 {finalSkillRow}
             </div>
