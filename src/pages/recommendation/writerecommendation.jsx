@@ -53,8 +53,7 @@ class WriteRecommendation extends Component {
         return (
             <div className="container my-5 py-5 txt">
                 <h1 className="font-weight-light text-center py-5">
-                    <span className="text-info">Thank you! </span>for your taking
-                    your time
+                    <span className="text-info">Thank you! </span>for taking your time
                 </h1>
                 <div className="row justify-content-center">
                     <div className="col-11 col-lg-5">
