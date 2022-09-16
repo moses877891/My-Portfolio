@@ -12,14 +12,14 @@ function About() {
                 <div className="col-12 col-md-6 pb-5">
                     <h4 className="font-weight-bold">What am I doing currently?</h4>
                     <p>
-                        Pursuing B.E. Electronics And Communication(3rd year) in
-                        R.M.K. Engineering College with a gpa of 7.90 , Has some relevant skills and experience in Full-Stack Development.
+                        I Graduated in the year 2022 with a CGPA of 8.07, with no backlogs.
+                        Has some relevant skills and experience in Full-Stack Development.
                     </p>
                 </div>
                 <div className="col-12 col-md-6">
                     <h4 className="font-weight-bold">What Am I good at?</h4>
                     <p>
-                        JAVASCRIPT, Working with React, SQL, Firebase, Redux, Communicating with others,analytical skills
+                        JAVASCRIPT, Working with React, SQL, Firebase, Redux, Java, Communicating with others,analytical skills
                         and also I tend to be a bit Motivational & Enthusiastic.
                     </p>
                 </div>

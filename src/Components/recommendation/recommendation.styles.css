@@ -1,18 +1,19 @@
 .hov {
+  float: right;
+  text-decoration: none;
   transform: scale(1.02);
   transition: transform 0.3s ease-out;
 }
 
 .hov:hover {
-  transform: translate(15px);
-  text-decoration: none;
+  transform: translate(5px);
 }
 
-.tr {
+.tr{
   transform: translateZ(0);
   transition: transform 0.3s ease-out;
 }
 
 .tr:hover {
-  transform: rotate(-90deg);
+  transform: rotate(-75deg);
 }

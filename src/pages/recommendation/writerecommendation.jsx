@@ -56,8 +56,9 @@ class WriteRecommendation extends Component {
             createdAt: ""
         })
         console.log(this.recommendation);
-
-        if (this.recommendation.name && this.recommendation.recommendationMessage) { return addToFireStore('recommendations', this.recommendation) };
+        if (this.recommendation.name && this.recommendation.recommendationMessage) {
+            return addToFireStore('recommendations', this.recommendation);
+        };
     };
 
     render() {
@@ -121,12 +122,12 @@ class WriteRecommendation extends Component {
                                     onChange={this.onChange}
                                     required
                                 ></textarea>
-                            </div>
+                            </div><br />
                             <button
                                 type="submit"
                                 className="btn btn-danger float-right"
                             >
-                                Lot's of love!
+                                Send
                             </button>
                         </form>
                     </div>

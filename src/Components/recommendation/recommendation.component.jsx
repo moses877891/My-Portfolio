@@ -18,7 +18,9 @@ function RecommendationSection({ recommendation, loading }) {
                     <RecommendationCard key={uuid()} recommendation={i} />
                 ))}
             </div>
-            <Link to="/write-a-recommendation" className="float-right text-info mb-3 hov"><span>Write a Recommendation<i className="fas fa-chevron-right ml-1 tr"></i></span></Link>
+            <Link to="/write-a-recommendation" className="flex text-info mb-3">
+                <span className='hov'>Write a Recommendation
+                    <i className="fas fa-chevron-right ml-1 tr"></i></span></Link>
         </div>
     )
 }

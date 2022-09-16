@@ -68,7 +68,7 @@ export const convertSkillSnapshotToMap = skill => {
     //     accumulator[skills.id] = skills;
     //     return accumulator;
     // }, {})
-
+ 
 }
 
 export const addToFireStore = async (contactKey, itemToAdd) => {

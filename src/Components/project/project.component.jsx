@@ -21,7 +21,9 @@ function ProjectSection({ project, loading }) {
                     </div>
                 ))}
             </div>
-            <Link to="/projects" className="float-right text-info hov"><span>See All<i className="fas fa-chevron-right ml-1 tr"></i></span></Link>
+            <Link to="/projects" className="text-info">
+                <button className="btn btn-outline-dark btn-md">see more</button>
+            </Link>
         </div>
     )
 }

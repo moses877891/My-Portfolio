@@ -1,6 +1,4 @@
 import React from 'react';
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap";
 import './App.css';
 
 import { firestore, convertProjectSnapshotToMap } from './Firebase/firebase.utils';

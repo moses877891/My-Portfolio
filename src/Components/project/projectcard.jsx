@@ -1,4 +1,6 @@
 import React from 'react';
+import './project.styles.css'
+
 import { Link } from 'react-router-dom';
 
 function ProjectCard(props) {
@@ -14,7 +16,7 @@ function ProjectCard(props) {
             <h4 className="card-title">{project.title}</h4>
             <p className="card-text">{project.excerpt}</p>
             <p className="card-text"><span className="text-danger">Tools: </span>{project.tools}</p>
-            <Link to={`/project/${project.id}`} className="stretched-link">more</Link>
+            <Link to={`/project/${project.id}`} className="stretched-link text-dark cmore">read more...</Link>
         </div>
     )
 }

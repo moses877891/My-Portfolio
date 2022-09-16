@@ -3,6 +3,10 @@
   cursor: pointer;
 }
 
+.avt{
+  width: 10%;
+}
+
 .clr {
   color: #b5b9bc;
   transform: scale(1.2);
@@ -22,17 +26,18 @@
 .brnd:hover {
   color: #f7f7f7;
   text-decoration: none;
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
-
+ 
 .navb {
   color: #f7f7f7;
+  text-decoration: none;
   transform: translateZ(0);
-  transition: transform 0.4s ease-out;
+  transition: transform 0.3s ease-out;
 }
 
 .navb:hover {
   color: #f7f7f7;
-  text-decoration: none;
-  transform: scale(1.05);
+  /* text-decoration: none; */
+  transform: scale(1.01);
 }
